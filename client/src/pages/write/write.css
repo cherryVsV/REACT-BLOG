@@ -1,0 +1,110 @@
+.write {
+    padding-top: 50px;
+  }
+  
+  .writeImg {
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .writeForm {
+    position: relative;
+  }
+  
+  .writeFormGroup {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 1% 0;
+  }
+  
+  .writeIcon {
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    color: rgb(129, 125, 125);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 7px;
+    margin: 3px;
+  }
+  
+  .writeInput {
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+  }
+  
+  .writeInput::placeholder {
+    color: rgb(189, 185, 185);
+    font-weight: 400;
+  }
+  
+  .writeInput:focus {
+    outline-style: none;
+  }
+  
+  .writeText {
+    width: 80%;
+    height: 200px;
+    font-family: inherit;
+    font-size: 20px;
+  }
+  
+  .writeSubmit {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .categoriesLabel{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Lora';
+    color: cadetblue;
+  }
+  .writeFile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex: 5 5;
+  }
+  .displayFile{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+    height: 50px;
+    background: #f1f3f4;
+    border-radius: 24px;
+  }
+  .displayVideo{
+    display: flex; 
+    justify-content: center; 
+    width: 50%;
+  }
+  .displayAudio{
+    width: 50%; 
+    height: 50px;
+  }
+  .ml-10px{
+    margin-left: 10px;
+  }
